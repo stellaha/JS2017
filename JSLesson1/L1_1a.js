@@ -5,4 +5,4 @@ var partnerName = Bob;
 var city = Toronto;
 var jobTitle = Clerk;
 
-document.write("you will be an");
+document.write("you will be an " + jobTitle + "in " + city + ", and married to " + partnerName + "with " + numChildren);
