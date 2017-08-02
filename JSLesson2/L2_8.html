@@ -9,10 +9,17 @@
 </body>
 <script>
 //Q8
-// Store user's hourly wage
+// user's hourly wage & yearly wage
 var hourWage = prompt("What's your hourly wage?");
 var dayRate = hourWage * 8
+var weeks = prompt("How many weeks will you be working?");
+var totalWeekPay = (dayRate * 4) * weeks;
 alert ("You will be paid $" + dayRate + " per day." );
-alert ("You will be paid $" + dayRate * 260 + " per year.")
+alert ("You will be paid $" + dayRate * 260 + " per year.");
+alert ("You'll earn " + totalWeekPay + " to work " + weeks + " of weeks");
+
+//Q9
+
+
 </script>
 </html>
